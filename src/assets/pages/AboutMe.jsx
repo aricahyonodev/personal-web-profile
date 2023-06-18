@@ -1,8 +1,8 @@
 
 const Card = () => {
     return (
-            <div className="flex-1 flex justify-center ">
-            <div className="w-4/5 bg-white shadow-md border-2 rounded-md px-6 py-6 ">
+            <div className="flex-1 flex justify-end ">
+            <div className="w-5/6 bg-white shadow-md border-2 rounded-md px-6 py-6 ">
                 <h1 className="font-semibold text-lg">Pendidikan</h1>
                 <p>Universitas Wijaya Kusuma Surabaya </p>
                 <ul className="list-disc ml-8 ">
@@ -28,7 +28,7 @@ const Card = () => {
 
 export const AboutMe = () => {
   return (
-    <div className="mt-24 px-12 pb-20">
+    <div className="mt-24 px-28 pb-20">
     <div className='flex'>
         <div className="flex-1">
             <h1 className="text-4xl font-bold mb-2">Tentang Saya</h1>
