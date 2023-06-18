@@ -1,7 +1,7 @@
 
 const Card = ({img, title, subTitle}) => {
     return (
-        <div className="rounded-md bg-white border-2 shadow-sm text-center pt-4 pb-4">
+        <div className="rounded-md bg-white border shadow-sm text-center pt-4 pb-4">
             <div className="h-24 flex justify-center items-center mb-1">
                 <img src={`../../../assets/icons/${img}`} alt="" />
             </div>

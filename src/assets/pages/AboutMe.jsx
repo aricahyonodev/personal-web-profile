@@ -2,7 +2,7 @@
 const Card = () => {
     return (
             <div className="flex-1 flex justify-end ">
-            <div className="w-5/6 bg-white shadow-md border-2 rounded-md px-6 py-6 ">
+            <div className="w-5/6 bg-white shadow-sm border rounded-md px-6 py-6 ">
                 <h1 className="font-semibold text-lg">Pendidikan</h1>
                 <p>Universitas Wijaya Kusuma Surabaya </p>
                 <ul className="list-disc ml-8 ">
@@ -31,8 +31,8 @@ export const AboutMe = () => {
     <div className="mt-24 px-28 pb-20">
     <div className='flex'>
         <div className="flex-1">
-            <h1 className="text-4xl font-bold mb-2">Tentang Saya</h1>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Saya adalah Mahasiswa Terbaik tingkat prodi Teknik Informatika 2020 di Universitas Wijaya Kusuma Surabaya dengan IPK 3.64 dari skala 4.0 dengan Masa Belajar 7 semester. Saya gemar belajar pemrograman secara mandiri ataupun dengan dunia luar. secara mandiri saya sering belajar dari buku bacaan seperti buku- buku karya Dunia Ilkom, W3school, dll. 
+            <h1 className="text-5xl font-bold mb-2">Tentang Saya</h1>
+            <p className="text-justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Saya adalah Mahasiswa Terbaik tingkat prodi Teknik Informatika 2020 di Universitas Wijaya Kusuma Surabaya dengan IPK 3.64 dari skala 4.0 dengan Masa Belajar 7 semester. Saya gemar belajar pemrograman secara mandiri ataupun dengan dunia luar. secara mandiri saya sering belajar dari buku bacaan seperti buku- buku karya Dunia Ilkom, W3school, dll. 
                 Untuk belajar melalui dunia luar saya sering mengikuti seminar teknologi, pelatihan-pelatihan di internet seperti Dicoding, Digital Talent Scholarship dan SYNRGY Academy. Selain itu saya adalah pribadi yang terbuka untuk belajar hal baru dan selalu menjunjung tinggi akan pentingnya Komunikasi Yang Baik.</p>
         </div>
         <Card/>

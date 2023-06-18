@@ -1,5 +1,6 @@
 import './App.css'
 import { AboutMe } from './assets/pages/AboutMe'
+import { Bootcamp } from './assets/pages/Bootcamp'
 import { Hero } from './assets/pages/Hero'
 import { ProgrammingSkill } from './assets/pages/ProgrammingSkill'
 
@@ -10,6 +11,7 @@ function App() {
       <Hero/>
       <AboutMe/>
       <ProgrammingSkill/>
+      <Bootcamp/>
     </div>
   )
 }
