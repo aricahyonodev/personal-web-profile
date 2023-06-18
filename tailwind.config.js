@@ -6,6 +6,7 @@ export default {
       colors: {
         "yellow-spring": "#FFFCD6",
         "yellow-orange": "#FBB040",
+        "yellow-sugar": "#FFFEF4",
       },
     },
   },
