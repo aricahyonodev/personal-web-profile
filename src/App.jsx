@@ -2,7 +2,9 @@ import './App.css'
 import { AboutMe } from './assets/pages/AboutMe'
 import { Bootcamp } from './assets/pages/Bootcamp'
 import { Hero } from './assets/pages/Hero'
+import { ListPortofolio } from './assets/pages/ListPortofolio'
 import { ProgrammingSkill } from './assets/pages/ProgrammingSkill'
+import { Footer } from './assets/pages/Footer'
 
 function App() {
 
@@ -12,6 +14,8 @@ function App() {
       <AboutMe/>
       <ProgrammingSkill/>
       <Bootcamp/>
+      <ListPortofolio/>
+      <Footer/>
     </div>
   )
 }
