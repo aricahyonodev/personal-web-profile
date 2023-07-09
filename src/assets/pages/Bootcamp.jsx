@@ -1,3 +1,4 @@
+import TextBold from "../components/TextBold"
 
 export const Bootcamp = () => {
   return (
@@ -13,7 +14,7 @@ export const Bootcamp = () => {
                 <img src="../../../assets/icons/synrgy_icon.svg" className="w-4/5 text-center mb-1" alt="" />
                 <h1 className="text-xl font-semibold text-[#104B60]">Kelas Full Stack Java Script</h1>
                 <h2 className=" text-[#A39E9E]"> Pre-Bootcamp : Jan 2022 - Feb 2022</h2>
-                <p className="text-sm text-justify">           Pelatihan ini diselenggarakan selama 2 bulan dan kami belajar banyak dalam dunia Full Stack Developer dengan teknologi Java Script dan Express JS.  Pada akhir Fase yaitu Demo aplikasi saya  mendapatkan bagian untuk melakukan presentasi Demo Aplikasi yang sudah kami kerjakan dan juga kami mendapatkan prestasi yaitu Kelompok Terbaik dari total 5 Besar kelompok. </p>
+                <p className="text-sm text-justify">Pelatihan ini diselenggarakan selama 2 bulan dan kami belajar banyak dalam dunia <TextBold text={"Full Stack Developer"} /> dengan teknologi <TextBold text={"Java Script"} /> dan <TextBold text={"Express JS"} />.  Pada akhir Fase yaitu Demo aplikasi saya  mendapatkan bagian untuk melakukan presentasi Demo Aplikasi yang sudah kami kerjakan dan juga kami mendapatkan prestasi yaitu <TextBold text={"Kelompok Terbaik"} /> dari <TextBold text={"total 5 Besar kelompok."} /> </p>
                 <ul className="flex flex-wrap gap-1 mt-1">
                     <li className="text-xs rounded-full py-1 px-3 text-center bg-yellow-orange">Web Dasar</li>
                     <li className="text-xs rounded-full py-1 px-3 text-center bg-yellow-orange">Java Script</li>
@@ -21,7 +22,7 @@ export const Bootcamp = () => {
                 </ul>
                 <h1 className="text-xl mt-2 font-semibold text-[#104B60]">Kelas Java Back End</h1>
                 <h2 className=" text-[#A39E9E]"> Main-Bootcamp : Mar 2022 - Jun 2022</h2>
-                <p className="text-sm text-justify">Pelatihan ini diselenggarakan selama 4 bulan dan kami belajar banyak dalam dunia Back-End Developer dengan teknologi Java Spring.</p>
+                <p className="text-sm text-justify">Pelatihan ini diselenggarakan selama 4 bulan dan kami belajar banyak dalam dunia <TextBold text={"Back-End Developer"} /> dengan teknologi <TextBold text={"Java Spring."} /></p>
                 <ul className="flex flex-wrap gap-1 mt-1">
                     <li className="text-xs rounded-full py-1 px-5 text-center bg-yellow-orange">Java</li>
                     <li className="text-xs rounded-full py-1 px-5 text-center bg-yellow-orange">Java Spring</li>
@@ -35,8 +36,8 @@ export const Bootcamp = () => {
                 </div>
                 <h1 className="text-xl font-semibold text-[#007DFF]"> IT Perbangkan Kelas Front End Developer</h1>
                 <h2 className=" text-[#A39E9E]">Ags 2021 - Okt 2021</h2>
-                <p className="text-sm text-justify">    Pelatihan ini diselenggarakan selama 3 bulan dan kami belajar banyak dalam dunia Front End Developer dengan teknologi React JS.
-        Ada beberapa prestasi yang di dapat selama kegiatan ini secara pribadi ·mendapatkan rangking 15 dari total 150 orang Peserta yang bisa lulus dari kelas Frontend Developer dan Backend Developer dan secara tim · menjadi Kelompok Terbaik Ke-2 dari total 17 kelompok.</p>
+                <p className="text-sm text-justify">Pelatihan ini diselenggarakan selama 3 bulan dan kami belajar banyak dalam dunia <TextBold text={"Front End Developer"} /> dengan teknologi <TextBold text={"React JS."} />
+        Ada beberapa prestasi yang di dapat selama kegiatan ini secara pribadi ·mendapatkan<TextBold text={"rangking 15"} /> dari <TextBold text={"total 150 orang Peserta"} /> yang bisa lulus dari kelas Frontend Developer dan Backend Developer dan secara tim · menjadi <TextBold text={"Kelompok Terbaik Ke-2"} /> dari  <TextBold text={"total 17 kelompok."} /></p>
                 <ul className="flex flex-wrap gap-1 mt-1">
                     <li className=" text-xs rounded-full py-1 px-3 text-center text-white bg-[#007DFF]">Web Dasar</li>
                     <li className=" text-xs rounded-full py-1 px-3 text-center text-white bg-[#007DFF]">React JS</li>
@@ -54,7 +55,7 @@ export const Bootcamp = () => {
                 </div>
                 <h1 className="text-xl font-semibold 2D3E50"> Menjadi Front-End Web Developer Expert</h1>
                 <h2 className=" text-[#A39E9E] text-sm">Mei 2021 - Juni 2021</h2>
-                <p className="text-sm text-justify">Pelatihan ini diselenggarakan selama 2 bulan dan kami belajar banyak dalam dunia Front End Developer dengan teknologi  Java Script. Pelatihan ini adalah Beasiswa dari Lintasarta Digischool 2021 kelanjutan dari Beasiswa Lintasarta Digischool 2020 bagi yang terpilih untuk bisa menyelesaikan pelatihan terakhir dari Learning Path Front-End Web Developer di Dicoding</p>
+                <p className="text-sm text-justify">Pelatihan ini diselenggarakan selama 2 bulan dan kami belajar banyak dalam dunia  <TextBold text={"Front End Developer"}/> dengan teknologi  <TextBold text={"Java Script."}/> Pelatihan ini adalah Beasiswa dari Lintasarta Digischool 2021 kelanjutan dari Beasiswa Lintasarta Digischool 2020 bagi yang terpilih untuk bisa menyelesaikan pelatihan terakhir dari Learning Path Front-End Web Developer di Dicoding</p>
                 <ul className="flex flex-wrap gap-1 mt-1">
                    <li className="text-xs rounded-full py-1 px-2 text-center bg-[#2D3E50] text-white">Web Dasar</li>
                     <li className="text-xs rounded-full py-1 px-3 text-center bg-[#2D3E50] text-white">PWA</li>
